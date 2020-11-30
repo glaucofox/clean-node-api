@@ -4,7 +4,7 @@ node_js:
 - '14.15'
 branches:
   only:
-  - master
+  - main
   cache:
     directories:
     - node_modules
@@ -13,4 +13,4 @@ before_install:
 install:
 - npm install
 script:
-- npm test:ci
+- npm test
